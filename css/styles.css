@@ -192,3 +192,83 @@ header, .navbar {
     text-align: center;
 }
 
+/* Trabalhe conosco*/
+/* pergunta - Por que o Matheus cria um monte de ID pra apply area sendo que o que ele realmente usa pra aplicar estilo são as classes? */
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img {
+    background-image: url(../img/empresa.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p {
+    color: #fff;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;/* O "display:block" faz com que o elemento seja renderizado como um bloco, fazendo com que nada mais fique ao seu lado esquerdo e direito*/
+    height: auto;
+    width: 180px;
+    margin-left: auto; /* As margens left e right no auto fazem com que o botão fique centralizado na div */
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover { /* Não é necessário utilizar "espaço" antes dos dois pontos ":"*/
+    border-color: #65daf9;
+    background-color: #65daf9;
+}
+
+/* Portfólio */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #fff;
+    background-color: #65daf9;
+    border-color: #65daf9;
+}
