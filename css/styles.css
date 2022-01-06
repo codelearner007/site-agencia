@@ -354,3 +354,78 @@ header, .navbar {
     letter-spacing: 2px;
 }
 
+/* Footer */
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1d5;
+}
+
+.contact-box i {
+    columns: #444;
+    border: 1px solid #444;
+    border-radius: 50%; /* Assim o contorno ficará redondo */
+    width: 55px;
+    height: 55px;
+    line-height: 55px; /* Centraliza o ícone dentro do contorno, pois possui a mesma altura */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #65daf9;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-area .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-area .main-btn:hover {
+    color: #3EC1d5;
+}
+
+/* Copywriting */
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1d5;
+    transition: .5s;
+}
